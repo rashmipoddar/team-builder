@@ -14,6 +14,8 @@ function App() {
     }
   ]);
 
+  const [ membertoEdit, setMemberToEdit ] = useState();
+
   const addNewMember = member => {
     const newMember = {
       id: Date.now(),
